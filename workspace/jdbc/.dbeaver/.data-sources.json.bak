@@ -1,0 +1,43 @@
+{
+	"folders": {},
+	"connections": {
+		"oracle_thin-18e9e140331-2fce3622290dbb18": {
+			"provider": "oracle",
+			"driver": "oracle_thin",
+			"name": "localhost",
+			"save-password": true,
+			"configuration": {
+				"host": "localhost",
+				"port": "1521",
+				"database": "xe",
+				"url": "jdbc:oracle:thin:@//localhost:1521/xe",
+				"configurationType": "MANUAL",
+				"home": "C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"provider-properties": {
+					"@dbeaver-connection-type@": "BASIC",
+					"@dbeaver-sid-service@": "SERVICE"
+				},
+				"auth-model": "oracle_native"
+			}
+		}
+	},
+	"virtual-models": {"oracle_thin-18e9e140331-2fce3622290dbb18":{"HR":{":TBL_POST":{"properties":{"erd.diagram.state":{"serialized":"\u003cdiagram version\u003d\"1\" name\u003d\"empty\" time\u003d\"202404091808\"\u003e\u003centities\u003e\u003cdata-source id\u003d\"oracle_thin-18e9e140331-2fce3622290dbb18\"\u003e\u003centity id\u003d\"1\" name\u003d\"TBL_POST\" fq-name\u003d\"HR.TBL_POST\" order\u003d\"0\" color-bg\u003d\"128,64,32\" font\u003d\"Segoe UI:9:0\" x\u003d\"289\" y\u003d\"75\"\u003e\u003cpath name\u003d\"HR\"/\u003e\u003c/entity\u003e\u003centity id\u003d\"2\" name\u003d\"TBL_MEMBER\" fq-name\u003d\"HR.TBL_MEMBER\" order\u003d\"1\" font\u003d\"Segoe UI:9:0\" x\u003d\"66\" y\u003d\"73\"\u003e\u003cpath name\u003d\"HR\"/\u003e\u003c/entity\u003e\u003c/data-source\u003e\u003c/entities\u003e\u003crelations\u003e\u003crelation name\u003d\"FK_POST\" fq-name\u003d\"HR.TBL_POST.FK_POST\" type\u003d\"fk\" pk-ref\u003d\"2\" fk-ref\u003d\"1\"/\u003e\u003c/relations\u003e\u003c/diagram\u003e"}}}}}},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"smart-commit": false,
+			"smart-commit-recover": false,
+			"auto-close-transactions": true,
+			"close-transactions-period": 1800,
+			"auto-close-connections": true,
+			"close-connections-period": 14400
+		}
+	}
+}

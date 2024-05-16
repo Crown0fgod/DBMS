@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+	<item id="ExecutionPlan/oracle_thin">
+		<column name="Operation" visible="true" order="0" width="170"/>
+		<column name="Object" visible="true" order="1" width="100"/>
+		<column name="Optimizer" visible="true" order="2" width="100"/>
+		<column name="Cost" visible="true" order="3" width="100"/>
+		<column name="Cardinality" visible="true" order="4" width="100"/>
+		<column name="Bytes" visible="true" order="5" width="100"/>
+	</item>
+	<item id="NodeList/DBNDatabaseFolder">
+		<column name="이름" visible="true" order="0" width="140"/>
+	</item>
+	<item id="NodeList/DBNDatabaseObject">
+		<column name="이름" visible="true" order="0" width="115"/>
+	</item>
+	<item id="NodeList/DBNProjectDatabases/DBNBookmarkFolder/DBNDiagramFolder/DBNResource">
+		<column name="이름" visible="true" order="0" width="100"/>
+		<column name="경로" visible="true" order="1" width="114"/>
+		<column name="크기" visible="true" order="2" width="100"/>
+		<column name="최종 수정" visible="true" order="3" width="100"/>
+	</item>
+	<item id="NodeList/DBNResource">
+		<column name="name" visible="true" order="0" width="100"/>
+		<column name="경로" visible="true" order="1" width="144"/>
+		<column name="크기" visible="true" order="2" width="100"/>
+		<column name="최종 수정" visible="true" order="3" width="138"/>
+	</item>
+	<item id="NodeList/DataSourceDescriptor">
+		<column name="이름" visible="true" order="0" width="100"/>
+		<column name="설명" visible="true" order="1" width="100"/>
+		<column name="Origin" visible="true" order="2" width="100"/>
+		<column name="드라이버 유형" visible="true" order="3" width="100"/>
+	</item>
+	<item id="NodeList/OracleTableColumn">
+		<column name="컬럼명" visible="true" order="0" width="113"/>
+		<column name="#" visible="true" order="1" width="100"/>
+		<column name="Type" visible="true" order="2" width="106"/>
+		<column name="Type Mod" visible="true" order="3" width="100"/>
+		<column name="Not Null" visible="true" order="4" width="100"/>
+		<column name="디폴트" visible="true" order="5" width="100"/>
+		<column name="Comment" visible="true" order="6" width="100"/>
+	</item>
+	<item id="PrefPageConfirmationsEditor">
+		<column name="Confirmation" visible="true" order="0" width="168"/>
+		<column name="Show dialog" visible="true" order="1" width="79"/>
+		<column name="Confirm" visible="true" order="2" width="55"/>
+		<column name="Group" visible="true" order="3" width="100"/>
+	</item>
+	<item id="PrefPageNotifications">
+		<column name="Notification name" visible="true" order="0" width="492"/>
+		<column name="Notification sound" visible="true" order="1" width="326"/>
+		<column name="Show popup" visible="true" order="2" width="295"/>
+	</item>
+	<item id="SchemaSelector">
+		<column name="Name" visible="true" order="0" width="130"/>
+	</item>
+	<item id="Suggestion/NodeList/OracleTableColumn">
+		<column name="컬럼명" visible="true" order="0" width="124"/>
+		<column name="#" visible="true" order="1" width="27"/>
+		<column name="Type" visible="true" order="2" width="100"/>
+		<column name="Type Mod" visible="false" order="3" width="100"/>
+		<column name="Not Null" visible="true" order="3" width="59"/>
+		<column name="디폴트" visible="true" order="4" width="50"/>
+		<column name="Comment" visible="true" order="5" width="68"/>
+	</item>
+</items>
